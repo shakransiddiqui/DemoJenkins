@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="websiteUrl" value="https://www.facebook.com/"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestsPack.SampleTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testCase3"/>
+          <include name="testCase1"/>
+          <include name="testCase2"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestsPack.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
