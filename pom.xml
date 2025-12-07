@@ -116,7 +116,7 @@
  </dependencies>
  <configuration>
    <suiteXmlFiles>
-     <suiteXmlFile>src\test\java\RunTime\testng_1.xml</suiteXmlFile>
+     <suiteXmlFile>Pipeline\${xmlFiles}</suiteXmlFile>
    </suiteXmlFiles>
  </configuration>
 </plugin>
